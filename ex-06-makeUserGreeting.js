@@ -18,6 +18,20 @@
  * NOTE: Don't forget the comma and space and ending puctuation when building the string.
  **/
 
+function makeUserGreeting(name, booleanValue) {
+	if (booleanValue === true){
+		return "Good to see you again, " + name + "."
+	}
+
+
+   else {
+   	 return "Welcome, "+ name + "!"
+   }
+ }
+
+ const printInconsole=makeUserGreeting("Atushi",true)
+console.log (printInconsole)
+
 
 
 

@@ -5,11 +5,20 @@
  * whether a character is a vowel or not.
  *
  **/
+function isVowel(characterX) {
+	if (characterX == "a" || characterX == "e" || characterX == "i" 
+		|| characterX == "o" || characterX == "u" || characterX == "y"
+		|| characterX == "A" || characterX == "E" || characterX == "I" 
+		|| characterX == "O" || characterX == "U" || characterX == "Y") {
+		return true
+	}
+	return false
+}
 
 
 
-
-
+const printInconsole = isVowel()
+console.log (printInconsole)
 
  //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 

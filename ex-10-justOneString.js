@@ -6,7 +6,17 @@
  * but returns false if both arguments or neither are strings
  *
  **/
-
+function justOneString(x,y) {
+	if ((typeof x == "string") && (typeof y == "string")) {
+		return false
+	}
+	else if ((typeof x !== "string") && (typeof y !== "string")) {
+		return false
+	}
+	return true  
+}
+const printEx10 = justOneString(6, "dotron")
+console.log(printEx10)
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 

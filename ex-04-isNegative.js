@@ -5,7 +5,15 @@
  * whether a number is negative or not.
  *
  **/
-
+function isNegative(x){
+	if (x >= 0){
+		return false
+	} else {
+		return true
+	}
+}
+const printInconsole=isNegative(0)
+console.log (printInconsole)
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 
 console.assert( isNegative(100) === false )

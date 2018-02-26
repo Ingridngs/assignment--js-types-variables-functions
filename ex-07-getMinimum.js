@@ -5,6 +5,23 @@
  * and returns the one with the lowest value.
  *
  **/
+function getMinimum(w,x,y,z){
+	 if (w <= x && w <= y && w <= z) {
+        return w
+    }
+    else if (x <= w && x <= y && x <= z) {
+        return x
+    }
+    else if (y <= w && y <= x && y <= z) {
+        return y
+    }
+    else if (z <= w && z <= x && z<= y) {
+        return z
+    }
+}
+
+const printInconsole = getMinimum(1,2,4,0)
+console.log (printInconsole)
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*

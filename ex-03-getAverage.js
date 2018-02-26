@@ -9,6 +9,16 @@
  **/
 
 
+function getAverage (x,y){
+	return  (x+y) / 2
+}
+
+const printInconsole=getAverage(5,15)
+console.log(printInconsole)
+
+
+
+
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
